@@ -17,7 +17,7 @@ public:
 	double getCoordX() const;
 	double getCoordY() const;
 
-	void printLocation();
+	void printLocation() const;
 private:
 	char* locationName;
 	double coordX;
