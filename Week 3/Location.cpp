@@ -60,7 +60,7 @@ double Location::getCoordY() const
 	return this->coordY;
 }
 
-void Location::printLocation()
+void Location::printLocation() const
 {
 	std::cout << "Location: " << this->locationName << "\n";
 	std::cout << "Coord X: " << this->coordX << '\n';
